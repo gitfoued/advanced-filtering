@@ -1,0 +1,35 @@
+.sidebar-title{
+    font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  
+}
+.sidebar-label-container{
+    display: block;
+position: relative;
+padding-left: 35px;
+margin-bottom: 8px;
+cursor: pointer;
+}
+.sidebar-label-container input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+
+}
+.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.sidebar-label-container input:hover + .checkmark{
+  background-color: #ccc;
+}
+.sidebar-label-container input:checked + .checkmark{
+  background-color: #2196f3;
+}

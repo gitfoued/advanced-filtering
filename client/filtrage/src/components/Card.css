@@ -1,0 +1,71 @@
+
+.partie1-blog {
+    width: 300PX;
+    margin-left: 14rem;
+    margin-top: 2rem;
+    z-index: -2;
+    overflow-y: hidden;
+  }
+  .containerblog {
+  
+    margin:25px;
+    border: 2px solid #ededed;
+    padding: 10px;
+    cursor: pointer;
+    
+    
+    
+  }
+  .containerblog .image {
+    width:13rem;
+    height: 17rem;
+    margin-bottom: 1rem;
+  }
+    
+    .containerblog .title{
+        color: blue;
+        margin-bottom: 1rem;  
+    }
+    .containerblog .price{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    .prevprice{
+        text-decoration: line-through;
+        color: red;
+    }
+    .containerblog .card-reviews{
+  display: flex;
+  margin-bottom: 1rem;
+    }
+    .review{
+        margin-left: 20px;
+    }
+    .rating-start{
+        color: #d5ab55;
+    }
+    /* Styles pour la liste */
+.search-blog {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styles pour chaque élément de la liste */
+  .product-blog {
+
+    padding: 8px;
+   margin-left: 10PX;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Styles pour le survol de la liste */
+  .product-blog:hover {
+    background-color: #e0e0e0;
+  }
+  

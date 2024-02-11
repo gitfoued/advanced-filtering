@@ -1,0 +1,12 @@
+.recommended-btns{
+    display: flex;
+    margin-left: 16rem;
+    margin-bottom: 1rem;
+}
+.recommended-title{
+    margin-left: 16rem;
+    margin-bottom: 20px;
+    margin-top: 5PX;
+    font-size: 25px;
+    font-family: sans-serif;
+}

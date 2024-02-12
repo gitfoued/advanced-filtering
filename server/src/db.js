@@ -2,7 +2,7 @@ import mysql, { createConnection } from "mysql"
 const db=mysql.createConnection({
     host: 'localhost',
     user :'root',
-    password: 'mohamed27562068',
+    password: '*********',
     database: 'mydb'
 });
 db.connect((err)=>{
